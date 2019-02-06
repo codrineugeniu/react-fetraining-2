@@ -38,6 +38,4 @@ class CounterWithState extends Component {
     </div>
   }
 }
-
-
 export default CounterWithState;
