@@ -25,7 +25,7 @@ class ListDemo extends React.Component {
   sumReduce = (arr) => arr.reduce((sum, el) => sum + el);
 
   handleClick = (value) => {
-    this.setState({ multiplier: value })
+    this.setState({ multiplier: value });
   }
 
   render() {
@@ -36,7 +36,7 @@ class ListDemo extends React.Component {
     const displayList = myList.map(el => <BoldItem element={el} />);
     const multiplyList = myList.map(el => <BoldItem element={el * multiplier} />);
 
-    const greaterListJsx = myList.filter(x => x > 5).map(el => <BoldItem element={el} />)
+    const greaterListJsx = myList.filter(x => x > 5).map(el => <BoldItem element={el} />);
 
     return <div>
       <p>
