@@ -30,11 +30,13 @@
   color:lightskyblue;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+
+.buttonContainer button {
+    color: white;
+    margin: 5px;
+    padding: 5px;
+}
+
+h2 {
+  padding: 10px;
 }

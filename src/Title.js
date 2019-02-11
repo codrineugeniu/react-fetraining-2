@@ -1,7 +1,11 @@
 import React from 'react';
 
-const Title = () => {
-  return <h2>Hello React</h2>;
+const Title = (props) => {
+  return (
+    <h2 style={{ backgroundColor: props.hexCode }}>
+      Selected color: {props.label}
+    </h2>
+  );
 }
 
 export default Title;
