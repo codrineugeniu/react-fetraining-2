@@ -27,6 +27,13 @@ class App extends Component {
     return (
       <div className="App">
         <Title hexCode={selectedColor.hexCode} label={selectedColor.label} />
+        <p>
+          {
+            selectedColor.hexCode === '#4CAF50' && <span>
+              The color you selected is our color of the day! Enjoy 10% off.
+              </span>
+          }
+        </p>
         <Colors onClick={this.handleClick} />
       </div>
     );

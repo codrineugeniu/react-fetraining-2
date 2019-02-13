@@ -37,6 +37,18 @@
     padding: 5px;
 }
 
+.buttonContainer div > button {
+  color: black;
+}
+
+.buttonContainer div > button:disabled {
+  color: #666;
+}
+
+.buttonContainer label {
+  margin: 5px;
+}
+
 h2 {
   padding: 10px;
 }
